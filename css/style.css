@@ -142,9 +142,10 @@ h1.welcome{
 	font-weight: 501;
 	color: #000;
 }
+
+/* Service section */
 .services{
 	text-align: center;
-
 	background-image: url("../img/backgrounds/s_image.jpg");
 	color: white;
 	background-size: cover;
@@ -157,6 +158,23 @@ h1.welcome{
 .services h2{
 	color: white;
 }
+
+/* What we do section */
+.heading{
+	text-align: center;
+}
+#design-hidden {
+	display: none;
+}
+#development-hidden {
+	display: none;
+}
+#product-hidden {
+	display: none;
+}
+	
+  
+
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
