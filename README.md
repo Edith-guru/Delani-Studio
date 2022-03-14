@@ -24,7 +24,7 @@ This is just a brief overview of past projects we have done.
 You are free to contact us and we will make sure we get back to you.
 
 ## Setup
-This is a website thus is not available for download and can only be accessed online. However, we are working on building a functional app so stay tuned.
+This is a website thus is not available for download and can only be accessed online.
 
 ## Technologies used
 -HTML
@@ -42,4 +42,4 @@ If you come across any, you are free to contact me via the contacts below.
 To contact me for any contribution or support you can contact me through my gmail account at edithnesa@gmail.com.
 
 ## License
-[MIT License](https://github.com/lendilai/Delani-studio/blob/master/LICENSE) [Edith Nekesa](https://www.linkedin.com/in/edith-kesa-b84a7a142/).
+[MIT License](https://github.com/Edith-guru/Delani-studio/main/LICENSE) [Edith Nekesa](https://www.linkedin.com/in/edith-kesa-b84a7a142/).
