@@ -77,23 +77,25 @@ ul, ol {
 	transition: all 0.3s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #54d0dd;
-	background-color: #414a52;
+	color: #fff;
+	background-color: #fff;
 }
 .btn-default {
 	text-transform: uppercase;
-	color: #54d0dd;
-	background-color: #414a52;
-	border: 0;
+	color: rgb(0, 0, 0);
+	background-color: #eff4f8;
+	border: 2px solid ;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 0;
 	margin-top: 20px;
 	transition: all 0.3s;
+	font-size: small;
+	margin-right: 82%;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #54d0dd;
+	color: #fff;
 	background-color: #343b42;
 }
 /* Header Section */
@@ -167,6 +169,7 @@ h1.welcome{
 	background-color: #fff;
 	font-weight: 501;
 	color: #000;
+	overflow-x: hidden;
 }
 #design-hidden {
 	display: none;
@@ -187,6 +190,7 @@ h1.welcome{
 #portfolio {
 	padding: 30px 0;
 	background-color: #fff;
+	overflow-x: hidden;
 /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); IE6-9 */
 }
 #portfolio h2 {
@@ -323,10 +327,17 @@ ol.type li a:hover {
 	color: #E87E04;
 }
 /* Contact Section */
+.section-title-c.center{
+	padding: 10px 0px 1px;
+}
 #contact {
-	padding: 120px 0 60px 0;
+	overflow-x: hidden;
+	padding: 60px 0 60px 0;
 	background-image: url("../img/backgrounds/c_image.jpg");
 	background-size: cover;
+}
+#contact h2{
+	color:#fff;
 }
 #contact form {
 	padding: 30px 0;
@@ -347,10 +358,10 @@ label {
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #222;
-	background-color: rgba(255,255,255,0.8);
+	color: #fff;
+	background-color:transparent;
 	background-image: none;
-	border: 1px solid transparent;
+	border: 1px solid #fff;
 	border-radius: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -359,7 +370,7 @@ label {
 	transition: none;
 }
 #contact .form-control:focus {
-	border-color: #4b8d98;
+	border-color:grey;
 	outline: 0;
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
@@ -408,6 +419,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: black;
 	margin-top: 30px;
 	margin-bottom: 5px;
+	background-size: cover;
+	overflow-x: hidden;
 }
 #footer p {
 	font-size: 13px;
@@ -476,3 +489,4 @@ textarea::placeholder{
 #social{
 	background-color: #fff;
 }
+
