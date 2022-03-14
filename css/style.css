@@ -160,8 +160,13 @@ h1.welcome{
 }
 
 /* What we do section */
-.heading{
+.what-heading{
 	text-align: center;
+	padding-bottom: 50px;
+	padding-top:40px;
+	background-color: #fff;
+	font-weight: 501;
+	color: #000;
 }
 #design-hidden {
 	display: none;
@@ -172,21 +177,22 @@ h1.welcome{
 #product-hidden {
 	display: none;
 }
+#showing{
+	font-weight: 501;
+}
 	
   
 
 /* Portfolio Section */
 #portfolio {
-	padding: 120px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,71777d+0,414a52+100 */
-	background: rgb(84,208,221); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(113,119,125,1) 0%, rgba(65,74,82,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(113,119,125,1) 0%, rgba(65,74,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(113,119,125,1) 0%, rgba(65,74,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); /* IE6-9 */
+	padding: 30px 0;
+	background-color: #fff;
+
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); IE6-9 */
 }
 #portfolio h2 {
-	color: #54d0dd;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 .categories {
 	padding-bottom: 30px;
@@ -269,7 +275,7 @@ ol.type li a:hover {
 	text-align: center;
 	margin: 0 auto;
 	color: #ffffff;
-	background: rgba(0, 0, 0, 0.66);
+	border: 2px solid #fff;
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
