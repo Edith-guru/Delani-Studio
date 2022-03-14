@@ -62,45 +62,55 @@
 
 <!-- icons when clicked should toggle between description of each icon (jquery) -->
 <!-- description centered and header bold and centered(jquery) -->
-<div class="container-what-we-do">
-  <h2 class="what-heading">WHAT WE DO</h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div id="design-hidden">
-        <h2 class="label">DESIGN</h2>
-        <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.<br>
-        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+<div id="Work">
+  <h2 style="text-align: center;">WHAT WE DO</h2>
+  <div class="container-fluid" id="doings">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="design-showing">
+          <span class="clickable"><img src="img/services_icons/design_icon.png" alt="Design"></span>
+        </div>
+        <div class="design-hidden">
+          <span class="clickable">
+            <h4>Design</h4>
+            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p><br>
+            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is neeeded.</p></span><br>
+       </div>
+       <div class="design-showing">
+         <strong><p>DESIGN</p></strong>
+       </div>
+     </div>
+     <div class="col-lg-4">
+       <div class="development-showing">
+         <span class="clickable2"><img src="img/services_icons/dev_icon.png" alt="Development"></span>
+       </div>
+       <div class="development-hidden">
+         <span class="clickable2">
+           <h4 id="development">Development</h4>
+           <p  id="development">All engineers are fluent in the latest enterprise, mobile and web development technologies.</p><br>
+           <p id="development">They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p></span><br>
       </div>
-      <div id="design-showing">
-        <img src="img/services_icons/design_icon.png" alt="design">
-        <p id="showing">DESIGN</p>
+      <div class="development-showing">
+        <strong><p>DEVELOPMENT</p></strong>
       </div>
     </div>
-    <div class="col-md-4">
-      <div id="development-hidden">
-        <h2 class="label">DEVELOPMENT</h2>
-        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.<br>
-          They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+    <div class="col-lg-4">
+      <div class="management-showing">
+        <span class="clickable3"><img src="img/services_icons/product_icon.png" alt="Product management"></span>
       </div>
-      <div id="development-showing">
-        <img src="img/services_icons/dev_icon.png" alt="development">
-        <p id="showing">DEVELOPMENT</p>
+      <div class="management-hidden">
+        <span class="clickable3">
+          <h4 id="management">Product management</h4>
+          <p id="management">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p><br>
+          <p id="management">This iterative process allows for the changes as business requirements evolve.</p></span><br>
       </div>
-    </div>
-    <div class="col-md-4">
-      <div id="product-hidden">
-        <h2 class="label">PRODUCT MANAGEMENT</h2>
-        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.<br>
-          This iterative process allows for changes as business requirements evolve.</p>
-      </div>
-      <div id="product-showing">
-        <img src="img/services_icons/product_icon.png" alt="product management">
-        <p id="showing">PRODUCT MANAGEMENT</p>
+      <div class="management-showing">
+        <strong><p>PRODUCT MANAGEMENT</p></strong>
       </div>
     </div>
   </div>
 </div>
-
+</div>
 <!-- Portfolio Section -->
 <div id="portfolio">
   <div class="container">

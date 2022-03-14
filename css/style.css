@@ -162,7 +162,7 @@ h1.welcome{
 }
 
 /* What we do section */
-.what-heading{
+/* .what-heading{
 	text-align: center;
 	padding-bottom: 50px;
 	padding-top:40px;
@@ -170,21 +170,48 @@ h1.welcome{
 	font-weight: 501;
 	color: #000;
 	overflow-x: hidden;
-}
-#design-hidden {
+} */
+#Work {
+	padding-top: 4%;
+	background-color: white;
+  }
+  #Work p {
+	color: black;
+
+  }
+  #Work h4 {
+	color: black;
+	font-weight: bold;
+  }
+  .design-hidden {
 	display: none;
-}
-#development-hidden {
+  }
+  .development-hidden {
 	display: none;
-}
-#product-hidden {
+  }
+  .management-hidden {
 	display: none;
-}
-#showing{
-	font-weight: 501;
-}
-	
-  
+  }
+  .clickable:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-right: 40px;
+  }
+  .clickable2:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  .clickable3:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  #doings {
+	width: 80%;
+	margin-right: 60px;
+  }
 
 /* Portfolio Section */
 #portfolio {
