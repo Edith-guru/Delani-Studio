@@ -1,18 +1,15 @@
 # Delani Studio
-<img src="Images/logo/title.png" align="left" width="120" height="150">
 
 
 ### A portfolio showcasing software services that Delani studio offers to its customers.
 #### By **Edith Nekesa**
-
-![Delani Studio (2)](https://user-images.githubusercontent.com/32816069/158275923-26f8e8ec-d25d-48cf-a705-3cf7ae8ecea8.gif)
-
 
 ![image](https://user-images.githubusercontent.com/32816069/158273612-9cc84d5d-799e-494b-989a-914c8f5d5fa5.png)
 
 ## Description
 Delani studio is a website that is dedicated to connecting you with world class developers to build your website. Through the website, you can get to know who we are and what we do too. We also give you a chance to take a sneak peek at our past projects and contact us for enquiry and more. The video below is a snippet of how the website works.
 
+![Delani Studio (2)](https://user-images.githubusercontent.com/32816069/158275923-26f8e8ec-d25d-48cf-a705-3cf7ae8ecea8.gif)
 
 ## Sections
 * **About us**
