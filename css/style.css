@@ -187,12 +187,13 @@ h1.welcome{
 #portfolio {
 	padding: 30px 0;
 	background-color: #fff;
-
 /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); IE6-9 */
 }
 #portfolio h2 {
 	margin-top: 10px;
-	margin-bottom: 5px;
+}
+.section-title-p.center{
+	padding: 10px 0px 1px;
 }
 .categories {
 	padding-bottom: 30px;
@@ -272,18 +273,23 @@ ol.type li a:hover {
 }
 .hover-bg .hover-text {
 	position: absolute;
-	text-align: center;
+	text-align:left;
 	margin: 0 auto;
 	color: #ffffff;
-	border: 2px solid #fff;
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
 	transition: all 0.5s;
+	border: 2px solid #fff;
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
 }
 .hover-bg .hover-text>h4 {
 	text-transform: uppercase;
+	font-weight: 501;
 	opacity: 0;
 	color: #fff;
 	-webkit-transform: translateY(100%);
