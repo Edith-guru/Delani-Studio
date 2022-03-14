@@ -190,62 +190,66 @@
   </div>
 </div>
 <!-- Contact Section -->
-<div class="contacts">
-  <div class="contact-overlay">
-      <h2 class="text-center text-white b-text">CONTACT US</h2><br>
-      <div class="col-md-12 input">
-          <form id="form">
-              <div class="row">
-                  <div class="col-md-2 form"></div>
-                  <input class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Name..."
-                         required><br><br>
-                  <input class="col-md-4 form-control email" type="email" id="email" name="email" placeholder="Email..."
-                         required>
-                  <div class="col-md-2">
-                  </div>
-              </div>
-              <div class="row input">
-                  <div class="col-md-2"></div>
-                  <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
-                            placeholder="Your message here..."></textarea>
-                  <div class="col-md-2"></div>
-              </div>
-              <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
-              <br>
-          </form>
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Get In Touch</h2>
+      <hr>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+      </form>
+      <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+        </ul>
       </div>
+    </div>
   </div>
 </div>
-<br><br>
-
-<div class="social mx-auto text-center">
-  <div class="col-md-2"></div>
-  <img src="img/social_icons/twitter.png">
-  <img src="img/social_icons/dribble.png">
-  <img src="img/social_icons/facebook.png">
-  <img src="img/social_icons/g_plus.png">
-  <img src="img/social_icons/skype.png">
-  <img src="img/social_icons/stumble_upon.png">
-  <img src="img/social_icons/behance.png">
-  <img src="img/social_icons/pinterest.png">
-  <img src="img/social_icons/flickr.png">
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>DELANI STUDIO<br>
+      <script>
+        document.write(new Date().getFullYear());
+      </script></p>
+    </div>
+  </div>
 </div>
-<br>
-<footer class="text-center">Delani Studio <br><script>
-  document.write(new Date().getFullYear());
-</script> </footer>
-</div>
-</body>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script src="js/jquery-3.6.0.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
 <script type="text/javascript" src="js/nivo-lightbox.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
 <script type="text/javascript" src="js/main.js"></script>
 <script src="js/script.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
-<script src="js/mailchimp.js"></script>
+
 </body>
 </html>
