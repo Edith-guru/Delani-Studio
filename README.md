@@ -4,7 +4,8 @@
 ### A portfolio showcasing software services that Delani studio offers to its customers.
 #### By **Edith Nekesa**
 
-![image](https://user-images.githubusercontent.com/32816069/158273612-9cc84d5d-799e-494b-989a-914c8f5d5fa5.png)
+![image](https://user-images.githubusercontent.com/32816069/158273612-9cc84d5d-799e-494b-989a-914c8f5d5fa5.png)              ![IMG_20220315_130559](https://user-images.githubusercontent.com/32816069/158370957-c6997738-eb76-4e9f-9658-2ca30a29e6e1.jpg)
+]
 
 ## Description
 Delani studio is a website that is dedicated to connecting you with world class developers to build your website. Through the website, you can get to know who we are and what we do too. We also give you a chance to take a sneak peek at our past projects and contact us for enquiry and more. The video below is a snippet of how the website works.
@@ -36,6 +37,7 @@ This is a website thus is not available for download and can only be accessed on
 The site uses mailchimp API to track the emails sent from the 'Contact us' section.
 
 ## Known bugs
+There is no delay after transition between icons and their descriptions in what we do section.
 If you come across any, you are free to contact me via the contacts below.
 
 ## Contacts information
