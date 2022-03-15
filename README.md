@@ -8,9 +8,9 @@
 
 ## Description
 Delani studio is a website that is dedicated to connecting you with world class developers to build your website. Through the website, you can get to know who we are and what we do too. We also give you a chance to take a sneak peek at our past projects and contact us for enquiry and more. The video below is a snippet of how the website works.
+![Delani Studio (4)](https://user-images.githubusercontent.com/32816069/158372434-0c460050-9cb8-4ba5-8d68-ecd2dafb3690.gif)
+![Webp net-resizeimage](https://user-images.githubusercontent.com/32816069/158372470-b47bddb8-2e73-436f-b3e8-a8c2588e2047.jpg)
 
-![Delani ![Webp net-resizeimage](https://user-images.githubusercontent.com/32816069/158372229-ab63e824-9643-437d-acfe-cd49270db11d.jpg)
-Studio (4)](https://user-images.githubusercontent.com/32816069/158276274-32d73290-264e-42eb-a5f8-fb9703742287.gif)
 
 
 ## Sections
