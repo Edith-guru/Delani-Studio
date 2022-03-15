@@ -12,3 +12,45 @@ $(".clickable3").click(function(){
   $(".management-hidden").slideToggle();
   $(".management-showing").slideToggle();
 });
+
+//mailchimp api integration
+
+var key = 'ec14097a9e86ccace0b29fff3e9b2e42-us14';  //will post through my mailchimp api account
+
+
+$(document).ready(function(){
+  $("form#form34A").submit(function(event){
+    var name = $("input#MERGE1").val();
+    var email = $("input#MERGE0").val();
+    var message = $("textarea#comment").val();
+    email;
+    message;
+    if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+    }
+    // event.preventDefault('https://gmail.us3.list-manage.com/subscribe/post');
+  });
+
+
+});
+$("input,textarea").jqBootstrapValidation({
+  preventSubmit: true,
+  submitError: function($form, event, errors) {
+      // additional error messages or events
+  },
+  submitSuccess: function($form, event) {
+      event.preventDefault(); // prevent default submit behaviour
+      // get values from FORM
+      var name = $("input#MERGE1").val();
+      var email = $("input#MERGE0").val();
+      var message = $("textarea#comment").val();
+      message;
+      email;
+      firstName = name.split(' ').slice(0, -1).join(' ');
+      }
+  }
+)
+  $('#form34A')[0].reset();

@@ -472,9 +472,9 @@ input.error {
     font-weight: 300;
     color: red;
 }
-.email{
+/* .email{
     margin-right: 5px;
-}
+} */
 .social{
     justify-content:center;
     padding-left:10px;
