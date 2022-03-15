@@ -15,8 +15,6 @@ $(".clickable3").click(function(){
 
 //mailchimp api integration
 
-var key = 'ec14097a9e86ccace0b29fff3e9b2e42-us14';  //will post through my mailchimp api account
-
 
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
